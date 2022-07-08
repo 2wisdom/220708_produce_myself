@@ -77,7 +77,7 @@ main #about {
 }
 
 .about_container ul li {
-    list-style-image: url(/rocket.png);
+    list-style-image: url(./rocket.png);
     margin-left: 30px;
     padding: 3px;
 }
