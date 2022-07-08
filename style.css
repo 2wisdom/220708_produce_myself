@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: rgb(39, 39, 39);
+}
+
+/* header */
+
+header {
+    background-color: rgb(163, 209, 230);
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 15px;
+}
+
+nav a {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu-btn:hover {
+    color: rgb(117, 117, 117);
+    transition: all 0.4s ease-in;
+}
+
+/* main */
+
+main {
+    margin: 25px;
+}
+
+/* mian_container */
+
+main .profile img {
+    width: 400px;
+}
+
+.main_container {
+    display: flex;
+}
+
+.main_container ul {
+    margin-top: 280px;
+}
+
+.main_container ul li {
+    list-style: none;
+    margin: 15px;
+}
+
+/* main_About */
+
+main #about {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 30px 0 0 0;
+}
+
+.about_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 15px;
+}
+
+#about ul {
+    margin-top: 50px;
+}
+
+.about_container ul li {
+    list-style-image: url(/rocket.png);
+    margin-left: 30px;
+    padding: 3px;
+}
+
+/* main_Talk */
+
+main #talk {
+    margin: 30px 0 0 0;
+}
+
+.talk_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 5px 5px 5px;
+}
+
+.talk_container section {
+    margin: 10px;
+}
+
+.talk_container p {
+    margin: 3px 0 0 20px;
+}
+
+.talk_container ul {
+    margin: 3px 0 0 20px;
+}
+
+.talk_container ul li {
+    list-style: none;
+    margin: 3px;
+}
+
+footer {
+    background-color: rgb(175, 175, 175);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+}
+
+footer p {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 20px;
+}
